@@ -1,0 +1,13 @@
+0 silly argv {
+0 silly argv   _: [ 'add' ],
+0 silly argv   globs: [],
+0 silly argv   lernaVersion: '3.20.1',
+0 silly argv   '$0': '..\\..\\node_modules\\lerna\\cli.js',
+0 silly argv   pkg: 'git+ssh://https://github.com/markossilva/app-profile/packages/components.git'
+0 silly argv }
+1 notice cli v3.20.1
+2 verbose rootPath C:\Users\marko\projects\app-profile
+3 error Error: exited with error code: 128
+3 error     at ChildProcess.<anonymous> (C:\Users\marko\projects\app-profile\node_modules\@evocateur\pacote\lib\util\finished.js:12:19)
+3 error     at ChildProcess.emit (events.js:210:5)
+3 error     at maybeClose (internal/child_process.js:1021:16)
