@@ -1,4 +1,8 @@
-module.exports = {
-    plugins: ['babel-plugin-styled-components'],
-    presets: ['@babel/preset-env', '@babel/preset-react']
+export default {
+  overrides: [
+    {
+      test: "web/app",
+      extends: "web/app/babel.config.js"
+    }
+  ]
 };
